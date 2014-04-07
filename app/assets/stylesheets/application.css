@@ -37,6 +37,14 @@ div.nav ul li {
   list-style: none;
 }
 
+div.nav ul li a {
+  text-decoration: none;
+}
+
+div.nav ul li a:visited {
+  color: #01B6AD;
+}
+
 div.nav ul li:hover {
   color: white;
 }
