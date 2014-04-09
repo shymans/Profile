@@ -1,5 +1,5 @@
 div#left_bar {
-  margin-left: 100px;
+  margin-left: 16%;
   margin-top: 25px;
   height: 400px;
   width: 250px;
@@ -23,7 +23,8 @@ div#left_bar p {
 div#center_bar {
   position: relative;
   float: left;
-  margin-left: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 25px;
   height: 400px;
   width: 250px;
@@ -36,3 +37,36 @@ div#center_bar h2 {
   text-align: center;
   color: white;
 }
+
+div#center_bar p {
+  margin: 10px;
+  color: white;
+}
+
+div#right_bar {
+
+  float: left;
+  margin-top: 25px;
+  height: 400px;
+  width: 250px;
+  background: #0A4958;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px #01B6AD;
+}
+
+div#right_bar h2 {
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+}
+
+div#right_bar p {
+  margin: 10px;
+  color: white;
+}
+
+
+
+
+
+
