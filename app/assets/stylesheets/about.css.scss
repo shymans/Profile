@@ -1,11 +1,12 @@
 div#left_bar {
-  margin-left: 50px;
+  margin-left: 100px;
   margin-top: 25px;
   height: 400px;
   width: 250px;
   background: #0A4958;
   border-radius: 10px;
   box-shadow: -10px 10px 15px #01B6AD;
+  float: left;
 }
 
 div#left_bar h2 {
@@ -16,5 +17,22 @@ div#left_bar h2 {
 
 div#left_bar p {
   margin: 10px;
+  color: white;
+}
+
+div#center_bar {
+  position: relative;
+  float: left;
+  margin-left: 100px;
+  margin-top: 25px;
+  height: 400px;
+  width: 250px;
+  background: #0A4958;
+  border-radius: 10px;
+}
+
+div#center_bar h2 {
+  padding-top: 10px;
+  text-align: center;
   color: white;
 }
